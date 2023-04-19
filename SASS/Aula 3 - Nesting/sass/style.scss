@@ -1,0 +1,19 @@
+.classe1{
+    ul{
+        background-color: red;
+    }
+    li{
+        background-color: green;
+    }
+    button{
+        background-color: green;
+        padding: 50px;
+        
+        &:hover{
+            background-color: red;
+            transition: 1s;
+        }
+    }
+    
+}
+
